@@ -1,0 +1,47 @@
+.footer{
+    background-color: #C6DEFF1A;
+    width: 100%;
+    padding: 3rem 10rem;
+}
+
+.footer li{
+    list-style-type: none;
+    font-size: 12px;
+    color: #494369;
+    margin: 1rem 0;
+}
+
+.footer-text{
+    width: 26rem;
+    margin-right: 3rem;
+    margin-top: 3rem;
+}
+
+.footer-container{
+    display: flex;
+    width: 100%;
+}
+
+.element-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-footer{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.footer p {
+    font-size: 12px;
+}
+
+li{
+    cursor: pointer;
+}

@@ -36,6 +36,10 @@
     width: 50%;
 }
 
+.sub-container input:focus{
+    outline: none;
+}
+
 .sub-container button{
     background-color: #0C5BC6;
     color: white;
