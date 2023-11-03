@@ -9,8 +9,12 @@
     margin: 5rem 0 10rem 0;
 }
 
+.sub-img{
+    width: 20%;
+}
+
 .sub-img img{
-    width: 60%;
+    width: 100%;
 }
 
 .sub-text-container{
@@ -51,4 +55,53 @@
 
 button{
     cursor: pointer;
+}
+
+@media only screen and (max-width: 850px){
+    .sub-container{
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .sub-container input {
+        width: 100%;
+    }
+
+    .sub-container button{
+        width: 50%;
+    }
+
+    .sub-main{
+        padding: 2rem 4rem;
+    }
+}
+
+@media only screen and (max-width: 542px){
+    .sub-main{
+        padding: 1rem 2rem;
+    }
+
+    .sub-main h1{
+        font-size: 14px;
+    }
+
+    .sub-main p{
+        font-size: 10px
+    }
+
+    .sub-main input{
+        font-size: 12px;
+        padding: 10px 14px;
+    }
+
+    .sub-container button{
+        width: 30%;
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .sub-img{
+        width: 15%;
+    }
 }

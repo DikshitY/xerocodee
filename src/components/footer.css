@@ -45,3 +45,38 @@
 li{
     cursor: pointer;
 }
+
+@media only screen and (max-width: 1090px){
+    .footer{
+        padding: 3rem;
+    }
+}
+
+@media only screen and (max-width: 542px) {
+    .footer li, .footer p{
+        font-size: 10px;
+    }
+
+    .footer h3{
+        font-size: 13px;
+    }
+
+    .footer-container{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .footer-footer{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .footer-text{
+        width: 100%;
+    }
+
+    .footer{
+        padding: 1.5rem;
+    }
+
+}

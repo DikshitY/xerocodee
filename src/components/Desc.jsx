@@ -40,8 +40,8 @@ function Desc() {
         title="Visibility into costs and metrics"
         desc="Automatically track resource costs, across clouds, on every change. Visualize k8s pod metrics - CPU, Network, and Memory."
       />
-      <PropertyLeft url = {Six} title = "Customizable cost dashboards and reports" desc = "Stay on top of your cloud spending with custom cost dashboards and reports — sort, filter, and group by your various accounts, resources, and cloud regions."/>
-      <PropertyRight url = {Seven} title = "Preview infra costs" desc = "See the cost of a specific resource while choosing it (before provisioning). It saves you the hassle of searching through the complex pricing pages of your cloud provider or tools."/>
+      <PropertyLeft url = {Six} title = "Customizable cost dashboards and reports" desc = "Stay on top of your cloud spending with custom cost dashboards and reports — sort, filter, and group by your various accounts, resources, and cloud regions." additional = "full-img"/>
+      <PropertyRight url = {Seven} title = "Preview infra costs" desc = "See the cost of a specific resource while choosing it (before provisioning). It saves you the hassle of searching through the complex pricing pages of your cloud provider or tools." additional = "full-img"/>
     </div>
   );
 }

@@ -30,3 +30,30 @@
     width: 100%;
 }
 
+@media only screen and (max-width: 1060px) {
+    .bluebox-component{
+        flex-direction: column;
+    }
+    .component-text-container{
+        width: 100%;
+    }
+    .bluebox-main h1{
+        font-size: 1.8rem;
+    }
+  }
+
+  @media only screen and (max-width: 542px){
+    
+    .bluebox-main{
+        padding: 1rem;
+    }
+
+    .bluebox-main h1{
+        font-size: 1.2rem;
+    }
+
+    .bluebox-main p{
+        font-size: 10px;
+    }
+
+  }

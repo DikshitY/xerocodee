@@ -57,3 +57,57 @@ hr{
     justify-content: center;
     align-items: center;
 }
+
+@media only screen and (max-width: 1060px) {
+    .property-main{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        padding: 4rem;
+    }
+
+    .property-img{
+        width: 100%;
+    }
+
+    .property-img img{
+        width: 100%;
+    }
+
+    #full-img{
+        width: auto;
+    }
+
+    .property-text-container{
+        width: 100%;
+        text-align: center;
+    }
+
+    .reverse{
+        flex-direction: column-reverse;
+    }
+  }
+
+@media only screen and (max-width: 542px) {
+    .desc-main h1{
+        font-size: 1.2rem;
+    }
+
+    .desc-main p{
+        font-size: 10px;
+    }
+
+    .desc-main h2{
+        font-size: 1rem;
+    }
+
+    .heading-main{
+        margin-bottom: 4rem;
+    }
+
+    .property-main{
+        padding: 1rem;
+    }
+
+  }
