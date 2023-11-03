@@ -1,0 +1,32 @@
+.bluebox-main{
+    background-color: #0C5BC6;
+    color: white;
+    border-radius: 1.5rem;
+    width: 100%;
+    padding: 6rem;
+    margin: 9rem 0;
+}
+
+.bluebox-main h1{
+    font-size: 2.5rem;
+}
+
+.bluebox-title{
+    text-align: center;
+}
+
+.bluebox-component{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 5rem;
+}
+
+.component-text-container{
+    width: 40%;
+}
+
+.component-img img{
+    width: 100%;
+}
+

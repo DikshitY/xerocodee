@@ -1,0 +1,59 @@
+.desc-title{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+hr{
+    border: 2px solid #0C5BC6;
+    width: 50px;
+}
+
+/* Heading Component */
+
+.heading-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 7rem;
+}
+
+.heading-main h1{
+    margin: 7rem 0 4rem 0;
+}
+
+.heading-main h2{
+    margin-bottom: 1rem;
+}
+
+/* Property Component */
+
+.property-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10rem;
+    margin-top: 4rem;
+}
+
+.property-text-container{
+    width: 45%;
+}
+
+.property-text-container h2{
+    margin-bottom: 1rem;
+}
+
+.property-text-container p{
+    font-size: 14px;
+}
+
+.property-img{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
