@@ -3,10 +3,10 @@ import Item from "./Item";
 import FeatureMain from "../images/FeatureMain.png";
 import FeatureOne from "../images/FeatureOne.png";
 import FeatureTwo from "../images/FeatureTwo.png";
-import Infra from "../images/Infra.png";
-import Network from "../images/Network.png";
-import Security from "../images/Security.png";
-import Application from "../images/Application.png";
+import Infra from "../images/infra.png";
+import Network from "../images/network.png";
+import Security from "../images/security.png";
+import Application from "../images/application.png";
 
 function Feature() {
   return (

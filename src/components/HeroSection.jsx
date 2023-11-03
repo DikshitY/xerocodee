@@ -1,5 +1,5 @@
-import HeroImg from "../images/HeroImg.png";
-import Hero2 from '../images/Hero2.png'
+import HeroImg from "../images/heroImg.png";
+import Hero2 from '../images/hero2.png'
 import "./HeroSection.css";
 
 function HeroSection() {
